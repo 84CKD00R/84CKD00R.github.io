@@ -18,5 +18,5 @@ function showSlides(n) {
     slides[slideIndex].style.display = "block";
 }
 
-// Automatischer Bildwechsel alle 3 Sekunden (optional)
-setInterval(() => changeSlide(1), 3000);
+// Automatischer Bildwechsel alle 15 Sekunde
+setInterval(() => changeSlide(1), 15000);
