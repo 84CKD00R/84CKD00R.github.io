@@ -13,7 +13,21 @@
 
     <main>
         <section class="product">
-            <img src="lampe.jpg" alt="Elegante Designer-Lampe">
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="lampe1.jpg" alt="Lampe Bild 1">
+                </div>
+                <div class="slide fade">
+                    <img src="lampe2.jpg" alt="Lampe Bild 2">
+                </div>
+                <div class="slide fade">
+                    <img src="lampe3.jpg" alt="Lampe Bild 3">
+                </div>
+
+                <!-- Vor- und Zurück-Pfeile -->
+                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+            </div>
             <h2>Elegante Designer-Lampe</h2>
             <p>
                 Diese Lampe vereint modernes Design mit effizienter LED-Technologie und sorgt für eine angenehme Beleuchtung in deinem Zuhause.
