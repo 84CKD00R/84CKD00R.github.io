@@ -85,6 +85,7 @@ input, textarea {
     padding: 10px;
     border: 2px solid #0078FF;
     border-radius: 5px;
+    resize: vertical;
 }
 
 .slideshow-container {
